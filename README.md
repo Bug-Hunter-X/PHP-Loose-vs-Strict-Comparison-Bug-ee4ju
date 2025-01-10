@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily missed bug in PHP: the difference between loose and strict comparison.  The `foo` function intends to compare two values for equality, but it fails when comparing an integer and a string using loose comparison (`==`). The solution shows how to use strict comparison (`===`) to avoid this issue and ensure type safety.
